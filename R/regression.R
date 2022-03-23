@@ -1,6 +1,6 @@
 #' Simulate from posterior distribution in linear regression
 #'
-#' Simulate from the posterior distribution of the Guassian linear regression model
+#' Simulate from the posterior distribution of the Gaussian linear regression model
 #' \deqn{y = \mathbf{x}^\top\boldsymbol{\beta} + \varepsilon, \varepsilon \sim N(0,\sigma^2)}{y = x'*beta + eps, eps ~ N(0, sigma2)}
 #' with conjugate prior
 #' \deqn{\beta | \sigma^22 ~ N(\mu_0, \sigma^2Omega_0^{-1})}{beta | sigma2 ~ N(mu_0, sigma2*inv(Omega_0))}

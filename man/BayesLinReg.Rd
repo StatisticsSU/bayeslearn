@@ -25,7 +25,7 @@ BayesLinReg(y, X, mu_0, Omega_0, v_0, sigma2_0, nIter)
 list with a vector of sigma2 draws (sigma2Sample) and a matrix with beta draws (betaSample)
 }
 \description{
-Simulate from the posterior distribution of the Guassian linear regression model
+Simulate from the posterior distribution of the Gaussian linear regression model
 \deqn{y = \mathbf{x}^\top\boldsymbol{\beta} + \varepsilon, \varepsilon \sim N(0,\sigma^2)}{y = x'*beta + eps, eps ~ N(0, sigma2)}
 with conjugate prior
 \deqn{\beta | \sigma^22 ~ N(\mu_0, \sigma^2Omega_0^{-1})}{beta | sigma2 ~ N(mu_0, sigma2*inv(Omega_0))}

@@ -10,7 +10,9 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 Imports:
-    mvtnorm
+    mvtnorm,
+    SUdatasets
+Remotes: StatisticsSU/SUdatasets
 Depends: 
     R (>= 2.10)
 LazyData: true
