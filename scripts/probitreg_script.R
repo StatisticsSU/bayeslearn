@@ -1,5 +1,8 @@
 # Script: illustrating normal posterior approximation for probit regression
 
+library(bayeslearn)
+library(SUdatasets)
+
 # Loading titanic data from SUdatasets
 y = SUdatasets::titanic$survived
 X = cbind(1, SUdatasets::titanic$age)

@@ -1,5 +1,9 @@
 # Script: illustrating normal posterior approximation for logistic regression
 
+# install.packages("remotes")
+# library(remotes)
+# install_github("StatisticsSU/bayeslearn")
+# library(bayeslearn)
 library(bayeslearn)
 library(SUdatasets)
 
